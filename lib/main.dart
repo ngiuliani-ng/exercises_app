@@ -1,3 +1,6 @@
+import 'package:exercises_app/exercises/lesson_21.dart';
+import 'package:exercises_app/exercises/lesson_22.dart';
+
 /// Inizialmente importiamo la libreria di Flutter, nota anche come
 /// Material Component, necessaria per lo sviluppo dell'app.
 import 'package:flutter/material.dart';
@@ -8,7 +11,7 @@ void main() {
   runApp(MyApp());
 }
 
-/// Una volta eseguito il codice il compilatore creerà un'istanza
+/// Una volta eseguito il codice, il compilatore creerà un'istanza
 /// nella classe MyApp e la passerà alla funzione runApp che
 /// eseguirà l'applicazione.
 
@@ -29,7 +32,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      // home: MyHomePage(title: 'Flutter Demo Home Page'),
+
+      /// Lesson: MyHomePage00E00.
+      home: MyHomePage22E3(),
     );
   }
 }
