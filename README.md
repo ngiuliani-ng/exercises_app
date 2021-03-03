@@ -3,6 +3,7 @@
 A new Flutter application. Personal exercises.
 
 ## Project Notes
+
 - Lessons:
     - Lesson 21: https://bit.ly/3inZVEd
         - Argument: **Floating Action Button & Snack Bar**
